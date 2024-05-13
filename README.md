@@ -1,2 +1,7 @@
 # Serverless-Data-Analytics-Pipeline
-This is the code used in the different services to create a serverless data analytics pipeline on AWS.
+This project demonstrates how to create aN end-end serverless data analytics pipleine in AWS. The pipeline allows for data streaming and static data capabilities to be able to make insights from data.
+
+# Prerequisites
+Before getting started, ensure you have the following prerequisites:
+*An AWS account with appropriate permissions to create resources.
+*Postman installed on your local machine
