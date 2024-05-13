@@ -1,0 +1,31 @@
+'Query 1'
+SELECT region, SUM(sales) AS total_sales
+FROM tmp
+GROUP BY region
+ORDER BY total_sales DESC;
+
+'Query 2'
+SELECT category, SUM(sales) AS total_sales
+FROM tmp
+GROUP BY category
+ORDER BY total_sales DESC;
+
+'Query 3'
+SELECT "product name", COUNT(*) AS product_count
+FROM salesdatabase.tmp
+GROUP BY "product name"
+ORDER BY product_count DESC
+LIMIT 10;
+
+'Query 4'
+SELECT "product name", COUNT(*) AS product_count
+FROM salesdatabase.tmp
+GROUP BY "product name"
+ORDER BY product_count DESC
+LIMIT 10;
+
+'Query 5'
+SELECT "customer name", r name, COUNT(order_id) AS number_of_orders, SUM(sales) AS total_spent
+FROM tmp
+GROUP BY customer name
+ORDER BY total_spent DESC;
