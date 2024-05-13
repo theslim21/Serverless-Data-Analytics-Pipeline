@@ -3,5 +3,5 @@ This project demonstrates how to create aN end-end serverless data analytics pip
 
 # Prerequisites
 Before getting started, ensure you have the following prerequisites:
-*An AWS account with appropriate permissions to create resources.
-*Postman installed on your local machine
+* An AWS account with appropriate permissions to create resources.
+* Postman installed on your local machine
